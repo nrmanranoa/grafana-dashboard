@@ -6,28 +6,30 @@ export const Sidebar = () => {
   return (
     <List color="white" fontSize="1.2em" spacing={4}>
         <ListItem>
-            <Image src="../public/img/logo-white.png" alt="Your image alt text"></Image>
+            <NavLink to="/grafana-dashboard/">
+                <Image src="../img/logo-white.png" alt="Your image alt text"></Image>
+            </NavLink>
         </ListItem>
         <ListItem>
-            <NavLink to="/">
+            <NavLink to="/grafana-dashboard/">
                 <ListIcon as={CalendarIcon} color="white"/>
                 Dashboard
             </NavLink>
         </ListItem>
         <ListItem>
-            <NavLink to="/profile">
+            <NavLink to="/grafana-dashboard/">
                 <ListIcon as={AtSignIcon} color="white"/>
                 Profile
             </NavLink>
         </ListItem>
         <ListItem>
-            <NavLink to="/create">
+            <NavLink to="/grafana-dashboard/">
                 <ListIcon as={EditIcon} color="white"/>
                 Messages
             </NavLink>
         </ListItem>
         <ListItem>
-            <NavLink to="/create">
+            <NavLink to="/grafana-dashboard/">
                 <ListIcon as={SettingsIcon} color="white"/>
                 Settings
             </NavLink>
