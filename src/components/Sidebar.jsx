@@ -7,7 +7,7 @@ export const Sidebar = () => {
     <List color="white" fontSize="1.2em" spacing={4}>
         <ListItem>
             <NavLink to="/grafana-dashboard/">
-                <Image src="../img/logo-white.png" alt="Your image alt text"></Image>
+                <Image src="https://circadian.io/images/logo-white.png" alt="Your image alt text"></Image>
             </NavLink>
         </ListItem>
         <ListItem>
