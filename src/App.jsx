@@ -14,7 +14,7 @@ import Profile, { tasksLoader }  from './pages/Profile'
 // router and routes
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
+    <Route path="/grafana-dashboard" element={<RootLayout />}>
       <Route index element={<Dashboard />}/>
       <Route path="create" element={<Create />} />
       <Route path="profile" element={<Profile />} loader={tasksLoader}  />
